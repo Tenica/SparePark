@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="shared.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./public/css/shared.css">
+    <link rel="stylesheet" href="./public/css/main.css">
     <title>Document</title>
 </head>
 
@@ -19,41 +19,41 @@
                 <span class="toggle-button__bar"></span>
                 <span class="toggle-button__bar"></span>
             </button>
-            <a href="index.html" class="main-header__brand">
-                <img src="SparePark.png" alt="SparePark - The best parking app in London">
+            <a href="index.php" class="main-header__brand">
+                <img src="./public/images/SparePark.png" alt="SparePark - The best parking app in London">
             </a>
-        </div>
+            </div>
         </div>
         <nav class="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item">
-                    <a href="about/index.html">About Us</a>
+                    <a href="about/index.php">About Us</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="search/index.html">Search</a>
+                    <a href="search/index.php">Search</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="register/index.html">Register</a>
+                    <a href="register/index.php">Register</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="login/index.html">Login</a>
+                    <a href="login/index.php">Login</a>
                 </li>
             </ul>
         </nav>
-    </header>
-    <nav class="mobile-nav">
+</header>
+<nav class="mobile-nav">
         <ul class="mobile-nav__items">
             <li class="main-nav__item">
-                <a href="about/index.html">About Us</a>
+                <a href="about.php">About Us</a>
             </li>
             <li class="main-nav__item">
-                <a href="search/index.html">Search</a>
+                <a href="search/index.php">Search</a>
             </li>
             <li class="main-nav__item">
-                <a href="register/index.html">Register</a>
+                <a href="register/index.php">Register</a>
             </li>
             <li class="main-nav__item">
-                <a href="login/index.html">Login</a>
+                <a href="login/index.php">Login</a>
             </li>
         </ul>
     </nav>
@@ -208,7 +208,7 @@
                 </div>
             </div>
             <div class="image-container">
-                <img src="hero-image.jpg" alt="SparePark" class="hero__image">
+                <img src="./public/images/hero-image.jpg" alt="SparePark" class="hero__image">
             </div>
         </div>
 
@@ -923,6 +923,7 @@
 
     </main>
 
+
     <footer class="main-footer">
         <nav>
             <ul class="main-footer__links">
@@ -935,7 +936,9 @@
             </ul>
         </nav>
     </footer>
-    <script src="shared.js"></script>
+   
+    <script src="./public/js/shared.js"></script>
+  
 </body>
 
 </html>

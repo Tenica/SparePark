@@ -1,68 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us || SparePark</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
-    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="../shared.css">
-    <link rel="stylesheet" href="about.css">
+<?php include "../includes/head.php" ?>
+    <link rel="stylesheet" href="../public/css/about.css">
+  
 </head>
 <body>
     <div class="backdrop"></div>
-    <header class="main-header">
-        <div>
-            <button class="toggle-button">
-                <span class="toggle-button__bar"></span>
-                <span class="toggle-button__bar"></span>
-                <span class="toggle-button__bar"></span>
-            </button>
-            <a href="../index.html" class="main-header__brand">
-                <img src="../SparePark.png" alt="SparePark - The best parking app in London">
-            </a>
-        </div>
-        </div>
-        <nav class="main-nav">
-            <ul class="main-nav__items">
-                <li class="main-nav__item">
-                    <a href="about/index.html">Service</a>
-                </li>
-                <li class="main-nav__item">
-                    <a href="../search/index.html">Search</a>
-                </li>
-                <li class="main-nav__item">
-                    <a href="">Register</a>
-                </li>
-                <li class="main-nav__item">
-                    <a href="">Login</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <nav class="mobile-nav">
-        <ul class="mobile-nav__items">
-            <li class="main-nav__item">
-                <a href="../about/index.html">About Us</a>
-            </li>
-            <li class="main-nav__item">
-                <a href="../search/index.html">Search</a>
-            </li>
-            <li class="main-nav__item">
-                <a href="../register/index.html">Register</a>
-            </li>
-            <li class="main-nav__item">
-                <a href="../login/index.html">Login</a>
-            </li>
-        </ul>
-    </nav>
+  
+        <?php include "../includes/navigation.php" ?>
+ 
+    <?php include "../includes/mobile_navigation.php" ?>
 <main>
     <section id="about-us">
         <h1>About Us</h1>
@@ -133,7 +78,7 @@
              </button>
         </div>
       <div class="ceo-note__image-container">
-        <img src="../images/ceo-image.jpg" class="ceo-image" alt="">
+        <img src="../public/images/ceo-image.jpg" class="ceo-image" alt="">
       </div> 
 </div>
 
@@ -151,7 +96,7 @@
 
     <section class="mission-container">
         <div class="mission-container__image" >
-            <img src="../images/mission-image.jpg" class="mission-image" alt="">
+            <img src="../public/images/mission-image.jpg" class="mission-image" alt="">
         </div>
         <div class="mission-container__statement">
             <h2>Mission</h2>
@@ -164,7 +109,7 @@
 
     <section class="vision-container">
         <div class="vision-container__image" >
-            <img src="../images/vision-image.jpg" class="vision-image" alt="">
+            <img src="../public/images/mission-image.jpg" class="vision-image" alt="">
         </div>
         <div class="vision-container__statement">
             <h2>Vision</h2>
@@ -177,19 +122,14 @@
 </main>
 
 
-    <footer class="main-footer">
-        <nav>
-            <ul class="main-footer__links">
-                <li class="main-footer__link">
-                    <a href="#">Privacy Notice</a>
-                </li>
-                <li class="main-footer__link">
-                    <a href="#">Terms of Use</a>
-                </li>
-            </ul>
-        </nav>
-    </footer>
-    <script src="../shared.js"></script>
-    <script src="about.js"></script>
+ <?php include "../includes/footer.php" ?>
+
+        <script>
+    var path = window. location. pathname;
+
+console.log( path );
+</script>
+    <script src="../public/js/shared.js"></script>
+    <script src="../public/js/about.js"></script>
 </body>
 </html>
