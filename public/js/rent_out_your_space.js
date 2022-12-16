@@ -16,7 +16,7 @@ function geocode() {
     .get("https://maps.googleapis.com/maps/api/geocode/json", {
       params: {
         address: location,
-        key: "AIzaSyDntzfs8xNNVsm3EZMBYroK-nJhlroPTL4",
+        key: "ADD_UR_API_KEY",
       },
     })
     .then(function (response) {

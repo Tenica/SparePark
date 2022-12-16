@@ -38,7 +38,7 @@
 
 <script src="../public/js/rent_out_your_space.js"></script>
     <script async defer 
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDntzfs8xNNVsm3EZMBYroK-nJhlroPTL4&libraries=places&callback=activatePlacesSearch"></script>
+    src="https://maps.googleapis.com/maps/api/js?key=ADD_YOUR_API_KEY&libraries=places&callback=activatePlacesSearch"></script>
     <!-- <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDntzfs8xNNVsm3EZMBYroK-nJhlroPTL4&callback=getMap&v=weekly"
       defer
